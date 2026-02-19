@@ -1,68 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>HighCode DevOps Platform</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Hiqode DevOps Platform</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-<header>
-    <img src="assets/highcode-logo.png" class="logo">
-    <div class="version-badge" id="versionBadge">
-        Deployment Version: v1
-    </div>
+<body data-version="v1">
+
+<!-- 🔹 Glass Navbar -->
+<header class="navbar">
+  <div class="logo">
+    <img src="assets/highcode-logo.webp" alt="Hiqode Logo">
+  </div>
+
+  <div class="version-badge" id="versionBadge">
+    Deployment Version
+  </div>
 </header>
 
+<!-- 🔹 Hero Section -->
 <section class="hero">
-    <div class="overlay"></div>
-    <h1>HighCode DevOps Platform</h1>
+  <div class="hero-content">
+    <h1>Hiqode DevOps Platform</h1>
     <p>Automate • Deploy • Scale</p>
+  </div>
 </section>
 
-<section class="section-title">
-    <h2>🔥 Trending DevOps Stack</h2>
+<!-- 🔹 DevOps Stack Section -->
+<section class="stack-section">
+  <h2>🔥 Trending DevOps Stack</h2>
+
+  <div class="card-container">
+
+    <div class="card">
+      <img src="assets/aws.jpeg" alt="AWS">
+      <div class="card-content">
+        <h3>AWS Cloud</h3>
+        <p>Provision scalable infrastructure globally.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets/kubernetes.jpeg" alt="Kubernetes">
+      <div class="card-content">
+        <h3>Kubernetes</h3>
+        <p>Orchestrate containers at production scale.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets/jenkins.jpeg" alt="Jenkins">
+      <div class="card-content">
+        <h3>Jenkins CI/CD</h3>
+        <p>Continuous integration & deployment automation.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets/terraform.jpeg" alt="Terraform">
+      <div class="card-content">
+        <h3>Terraform</h3>
+        <p>Infrastructure as Code for cloud automation.</p>
+      </div>
+    </div>
+
+  </div>
 </section>
-
-<section class="cards">
-
-    <div class="card">
-        <img src="assets/aws.jpg">
-        <div class="card-content">
-            <h3>AWS Cloud</h3>
-            <p>Provision scalable infrastructure globally.</p>
-        </div>
-    </div>
-
-    <div class="card">
-        <img src="assets/kubernetes.jpg">
-        <div class="card-content">
-            <h3>Kubernetes</h3>
-            <p>Orchestrate containers at production scale.</p>
-        </div>
-    </div>
-
-    <div class="card">
-        <img src="assets/jenkins.jpg">
-        <div class="card-content">
-            <h3>Jenkins CI/CD</h3>
-            <p>Continuous integration and deployment automation.</p>
-        </div>
-    </div>
-
-    <div class="card">
-        <img src="assets/terraform.jpg">
-        <div class="card-content">
-            <h3>Terraform</h3>
-            <p>Infrastructure as Code for cloud automation.</p>
-        </div>
-    </div>
-
-</section>
-
-<footer>
-    © 2026 HighCode | DevOps + AWS | Production Ready
-</footer>
 
 <script src="script.js"></script>
 </body>
