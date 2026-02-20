@@ -1,5 +1,5 @@
 # ------------------------------
-# Stage 1: Use lightweight Nginx image
+## Stage 1: Use lightweight Nginx image
 # ------------------------------
 FROM nginx:alpine
 
