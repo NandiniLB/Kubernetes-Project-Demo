@@ -6,7 +6,7 @@ FROM nginx:alpine
 # Image Metadata (Professional Best Practice)
 LABEL maintainer="Hiqode DevOps Team"
 LABEL project="Hiqode DevOps Platform"
-LABEL version="2.0"
+LABEL version="3.0"
 
 # Remove default nginx static files
 RUN rm -rf /usr/share/nginx/html/*
